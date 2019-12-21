@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Avant-Garde-Gothic-Lt-Book-Regular";
-  src: url("../fonts/ITC-Avant-Garde-Gothic-LT-Book-Regular.otf")
+  src: url("/fonts/ITC-Avant-Garde-Gothic-LT-Book-Regular.otf")
     format("opentype");
 }
 
 @font-face {
   font-family: "Avant-Garde-Gothic-Lt-Bold";
-  src: url("../fonts/ITC-Avant-Garde-Gothic-LT-Bold.otf") format("opentype");
+  src: url("/fonts/ITC-Avant-Garde-Gothic-LT-Bold.otf") format("opentype");
 }
 
 @keyframes fadeIn {
@@ -148,12 +148,12 @@ body {
   left: 0;
   width: 100vw;
   height: 100%;
-  /* background: url("../img/filler.png") center center/cover; */
+  /* background: url("img/filler.png") center center/cover; */
 }
 
 #canvas {
   /* background-color: white; */
-  background: url("../img/white-hex.jpg") center center/cover;
+  background: url("img/white-hex.jpg") center center/cover;
 }
 
 .button {
@@ -758,40 +758,40 @@ section:nth-of-type(3) #gallery .mix .button:hover {
   color: #fff;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(1) .card {
-  background: url("../img/goodviews.png") center center/cover;
+  background: url("/img/goodviews.png") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(2) .card {
-  background: url("../img/Burger.PNG") center center/cover;
+  background: url("/img/Burger.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(3) .card {
-  background: url("../img/FriendFinder.PNG") center center/cover;
+  background: url("/img/FriendFinder.PNG") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(4) .card {
-  background: url("../img/liri.jpg") center center/cover;
+  background: url("/img/liri.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(5) .card {
-  background: url("../img/Pain-Treatment-Portal.jpg") center center/cover;
+  background: url("/img/Pain-Treatment-Portal.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(6) .card {
-  background: url("../img/giphy_api.jpg") center center/cover;
+  background: url("/img/giphy_api.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(7) .card {
-  background: url("../img/RPG.jpg") center center/cover;
+  background: url("/img/RPG.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(8) .card {
-  background: url("../img/CCGame.jpg") center center/cover;
+  background: url("/img/CCGame.jpg") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(9) .card {
-  background: url("../img/psychic.jpg") center center/cover;
+  background: url("/img/psychic.jpg") center center/cover;
 }
 /* section:nth-of-type(3) #gallery .mix:nth-child(10) .card {
-  background: url("../img/thumb-10.html") center center/cover;
+  background: url("/img/thumb-10.html") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
-  background: url("../img/thumb-11.html") center center/cover;
+  background: url("/img/thumb-11.html") center center/cover;
 }
 section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
-  background: url("../img/thumb-12.html") center center/cover;
+  background: url("/img/thumb-12.html") center center/cover;
 } */
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
@@ -836,16 +836,16 @@ section:nth-of-type(4) .blog-wrap {
   cursor: pointer;
 }
 section:nth-of-type(4) .blog-wrap #thumb-1 {
-  background: url("../img/blog-1.jpg") center center/cover;
+  background: url("/img/blog-1.jpg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-2 {
-  background: url("../img/blog-2.jpg") center center/cover;
+  background: url("/img/blog-2.jpg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-3 {
-  background: url("../img/blog-3.jpg") center center/cover;
+  background: url("/img/blog-3.jpg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap #thumb-4 {
-  background: url("../img/blog-4.jpg") center center/cover;
+  background: url("/img/blog-4.jpg") center center/cover;
 }
 section:nth-of-type(4) .blog-wrap .fade-wrap {
   transition: opacity 0.3s;
