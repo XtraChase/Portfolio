@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Avant-Garde-Gothic-Lt-Book-Regular";
-  src: url("./fonts/ITC-Avant-Garde-Gothic-LT-Book-Regular.otf")
+  src: url("/fonts/ITC-Avant-Garde-Gothic-LT-Book-Regular.otf")
     format("opentype");
 }
 
 @font-face {
   font-family: "Avant-Garde-Gothic-Lt-Bold";
-  src: url("./fonts/ITC-Avant-Garde-Gothic-LT-Bold.otf") format("opentype");
+  src: url("/fonts/ITC-Avant-Garde-Gothic-LT-Bold.otf") format("opentype");
 }
 
 @keyframes fadeIn {
