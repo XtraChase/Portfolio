@@ -1,41 +1,35 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
-    roambi: {
+    goodviews: {
       title: "Goodviews",
       tag: "Movie Finder",
       detail:
         "An application similar to the popular website goodviews Instead of using books, we chose to use movies. The home page has a modal with movies for scrolling. On the Browse page, the user has the option to search for a movie or leaf through new releases, drama, action, horror and comedy. Once a movie is searched the poster, title, release date, plot and rating will come up. The user also has the option to favorite the movie. Once a movie is favorited it will appear in the My Titles page. We were able to get movie information by using the OMDb and TMDb APIs.",
       link: "https://limitless-taiga-99097.herokuapp.com/index.html"
     },
-    walker: {
+    burger: {
       title: "Burger Bar",
       tag: "Restaraunt Database",
       detail:
         "A restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a EAT! button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.",
       link: "https://limitless-everglades-88254.herokuapp.com/"
     },
-    powur: {
+    friendFinder: {
       title: "Friend Finder",
       tag: "Find and meet new people",
       detail:
         "This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.",
       link: "https://friend-finder-home.herokuapp.com/"
     },
-    mystand: {
+    liri: {
       title: "Liri",
       tag: "Node App",
       detail:
-        "LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. It is a command line node app that takes in parameters and gives you back data."
-    },
-    never: {
-      title: "NeverSurrender",
-      tag: "ALS AWARENESS.",
-      detail:
-        "NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.",
+        "LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. It is a command line node app that takes in parameters and gives you back data.",
       link: "https://github.com/XtraChase/liri-node-app"
     },
-    themall: {
+    giphy: {
       title: "Giphy",
       tag: "API App",
       detail:

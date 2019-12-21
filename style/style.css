@@ -575,6 +575,10 @@ nav .active {
   margin-bottom: 20px;
 }
 
+#about-text {
+  color: #afafaf;
+}
+
 .about-catagory-title {
   color: white;
 }
