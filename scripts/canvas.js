@@ -33,7 +33,7 @@ function floatySpace() {
         // rotate the points slowly
         var pt = pts[i];
 
-        pt.rotate2D(Const.one_degree / 25, center);
+        pt.rotate2D(Const.one_degree / 15, center);
         form
           .stroke(false)
           .fill(colors[i % 3])

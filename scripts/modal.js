@@ -133,10 +133,18 @@ $(document).ready(function() {
     $.each($("#modal li"), function(index, value) {
       $(this).text(modalText[id].bullets[index]);
     });
+
+    var imageTypes = [".jpg", ".png", ".gif"];
+
     $.each($("#modal .slide"), function(index, value) {
       $(this).css({
         background:
-          "url('img/slides/" + id + "-" + index + ".jpg') center center/cover",
+          "url('img/slides/" +
+          id +
+          "-" +
+          index +
+          imageTypes[0] +
+          "') center center/cover",
         backgroundSize: "cover"
       });
     });
