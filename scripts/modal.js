@@ -143,7 +143,7 @@ $(document).ready(function() {
           id +
           "-" +
           index +
-          imageTypes[0] +
+          imageTypes[1] +
           "') center center/cover",
         backgroundSize: "cover"
       });
