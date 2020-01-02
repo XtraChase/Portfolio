@@ -35,6 +35,13 @@ $(document).ready(function() {
       detail:
         "A GIPHY API with a dynamic web page that populates with gifs of your choice. The GIPHY API uses JavaScript and jQuery to change the HTML of the site.",
       link: "https://xtrachase.github.io/giphy-api/"
+    },
+    patientPortal: {
+      title: "Patient Portal",
+      tag: "Collabortive Project",
+      detail:
+        "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
+      link: "https://xtrachase.github.io/pain-mangagement-portal/"
     }
   };
 
