@@ -42,6 +42,41 @@ $(document).ready(function() {
       detail:
         "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
       link: "https://xtrachase.github.io/pain-mangagement-portal/"
+    },
+    starWars: {
+      title: "Star Wars RPG Game",
+      tag: "Using Javascript to Manipulate the DOM",
+      detail:
+        "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
+      link: "https://xtrachase.github.io/pain-mangagement-portal/"
+    },
+    ccGame: {
+      title: "Patient Portal",
+      tag: "Javascript Crystal Collector Game",
+      detail:
+        "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
+      link: "https://xtrachase.github.io/pain-mangagement-portal/"
+    },
+    psychic: {
+      title: "Patient Portal",
+      tag: "Javascript Guessing Game",
+      detail:
+        "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
+      link: "https://xtrachase.github.io/pain-mangagement-portal/"
+    },
+    webScraper: {
+      title: "Web Scraper",
+      tag: "Tech News Website Scraper Using MongoDB",
+      detail:
+        "A web app that lets users view and leave comments on the latest technology news from TechCrunch.",
+      link: "https://techcrunch-scraping.herokuapp.com/"
+    },
+    virtualImagery: {
+      title: "Virtual Imagery LLC",
+      tag: "Business Venture Developing Virtual Reality for Pain Management",
+      detail:
+        "Virtual Imagery is a personal venture of mine that has developed a virtual reality pain management program. The software is a distraction therapy with visual cues to highly engage patients in the virtual world. It features useful tools for caregivers to ease medical procedures and receive patient feedback.",
+      link: "https://www.virtualimagery.net/"
     }
   };
 
