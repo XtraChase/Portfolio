@@ -1104,6 +1104,14 @@ section:nth-of-type(3) #gallery .mix:nth-child(11) .card {
   background: url("../img/VirtualImagery.png") center center/cover;
 }
 
+section:nth-of-type(3) #gallery .mix:nth-child(12) .card {
+  background: url("../img/emoji-game.png") center center/cover;
+}
+
+section:nth-of-type(3) #gallery .mix:nth-child(13) .card {
+  background: url("../img/ActivityUP-Logo.png") center center/cover;
+}
+
 section:nth-of-type(3) #gallery .mix .card {
   height: 240px;
   max-width: 100%;
@@ -1424,7 +1432,7 @@ footer .footnote .highlight {
   }
   .slide,
   .carousel-wrap {
-    height: 450px;
+    height: 250px;
   }
   .mdi-chevron-left,
   .mdi-chevron-right {
@@ -1432,7 +1440,8 @@ footer .footnote .highlight {
   }
   .modal-wrap .modal {
     top: -6vh;
-    height: initial;
+    height: 90%;
+    margin-top: 5%;
   }
   .modal-wrap .info-box {
     padding: 35px 60px 90px 25px;

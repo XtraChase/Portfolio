@@ -77,6 +77,19 @@ $(document).ready(function() {
       detail:
         "Virtual Imagery is a personal venture of mine that has developed a virtual reality pain management program. The software is a distraction therapy with visual cues to highly engage patients in the virtual world. It features useful tools for caregivers to ease medical procedures and receive patient feedback.",
       link: "https://www.virtualimagery.net/"
+    },
+    emojiGame: {
+      title: "Emoji Game",
+      tag: "A memory game using React",
+      detail: "",
+      link: "https://xtrachase.github.io/clicky-game/"
+    },
+    activityUp: {
+      title: "ActivityUP",
+      tag: "A site for up-voting group activities",
+      detail:
+        "ActivityUP is a web app for open source event creation. Users of our site are encouraged to create or join groups and upvote activities for the group. The most upvoted activities are shown at the top of the list for the upcoming event.",
+      link: "http://activityup.vote/"
     }
   };
 
