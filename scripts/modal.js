@@ -45,24 +45,26 @@ $(document).ready(function() {
     },
     starWars: {
       title: "Star Wars RPG Game",
-      tag: "Using Javascript to Manipulate the DOM",
+      tag:
+        "A Star Wars RPG game where the player must defeat his opponent in a duel.",
       detail:
-        "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
-      link: "https://xtrachase.github.io/pain-mangagement-portal/"
+        "Whenever the player clicks attack, their character damages the defender. The opponent will lose HP (health points). These points are displayed at the bottom of the defender's picture. The opponent character will instantly counter the attack. When that happens, the player's character will lose some of their HP. These points are shown at the bottom of the player character's picture. The player loses the game the game if their character's HP falls to zero or below.",
+      link: "https://xtrachase.github.io/RPG-Game/"
     },
     ccGame: {
-      title: "Patient Portal",
-      tag: "Javascript Crystal Collector Game",
+      title: "Crystal Collector Game",
+      tag:
+        "A game where the player has to guess the number using hidden values from the crystals.",
       detail:
-        "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
-      link: "https://xtrachase.github.io/pain-mangagement-portal/"
+        "There is four crystals displayed as buttons on the page. The player will be shown a random number at the start of the game. When the player clicks on a crystal, it will add a specific amount of points to the player's total score. The game will hide this amount until the player clicks a crystal. When they do click one, it updates the player's score counter. The player wins if their total score matches the random number from the beginning of the game. The player loses if their score goes above the random number.",
+      link: "https://xtrachase.github.io/crystal-collector-game/"
     },
     psychic: {
-      title: "Patient Portal",
+      title: "Psychic Game",
       tag: "Javascript Guessing Game",
       detail:
-        "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
-      link: "https://xtrachase.github.io/pain-mangagement-portal/"
+        "The app randomly picks a letter, and the user has to guess which letter the app chose.",
+      link: "https://xtrachase.github.io/Psychic-Game/"
     },
     webScraper: {
       title: "Web Scraper",
@@ -81,7 +83,8 @@ $(document).ready(function() {
     emojiGame: {
       title: "Emoji Game",
       tag: "A memory game using React",
-      detail: "",
+      detail:
+        "You have 30 seconds to reply! Use as many emojis as you can without using the same emoji twice!",
       link: "https://xtrachase.github.io/clicky-game/"
     },
     activityUp: {

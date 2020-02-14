@@ -641,7 +641,8 @@ nav .active {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #333;
-  height: 100vh;
+  height: 90vh;
+  width: 100vw;
 }
 
 .modal-wrap .close {
@@ -1440,7 +1441,6 @@ footer .footnote .highlight {
   }
   .modal-wrap .modal {
     top: -6vh;
-    height: 90%;
     margin-top: 5%;
   }
   .modal-wrap .info-box {
@@ -1453,10 +1453,12 @@ footer .footnote .highlight {
   .modal-wrap .tag {
     font-size: 11pt;
   }
-  .modal-wrap .detail {
-    font-size: 11pt;
+  .detail {
+    font-size: 10pt;
     line-height: 18pt;
     margin-top: 15px;
+    overflow: auto;
+    word-wrap: break-word;
   }
   .modal-wrap .close {
     right: 25px;
