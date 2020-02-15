@@ -15,7 +15,7 @@ $(document).ready(function() {
         "A restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a EAT! button. When the user clicks it, the burger will move to the right side of the page. The app will store every burger in a database, whether devoured or not.",
       link: "https://limitless-everglades-88254.herokuapp.com/"
     },
-    friendFinder: {
+    friendfinder: {
       title: "Friend Finder",
       tag: "Find and meet new people",
       detail:
@@ -36,14 +36,14 @@ $(document).ready(function() {
         "A GIPHY API with a dynamic web page that populates with gifs of your choice. The GIPHY API uses JavaScript and jQuery to change the HTML of the site.",
       link: "https://xtrachase.github.io/giphy-api/"
     },
-    patientPortal: {
+    patientportal: {
       title: "Patient Portal",
       tag: "Collabortive Project",
       detail:
         "We took the problem of pain and opioid addiction and created an online portal for medical providers and patients to easily track treatment plans. A portal like this makes it easier for providers to keep track of patients and adjust medication with recorded data that prevents malpractice.",
       link: "https://xtrachase.github.io/pain-mangagement-portal/"
     },
-    starWars: {
+    starwars: {
       title: "Star Wars RPG Game",
       tag:
         "A Star Wars RPG game where the player must defeat his opponent in a duel.",
@@ -51,7 +51,7 @@ $(document).ready(function() {
         "Whenever the player clicks attack, their character damages the defender. The opponent will lose HP (health points). These points are displayed at the bottom of the defender's picture. The opponent character will instantly counter the attack. When that happens, the player's character will lose some of their HP. These points are shown at the bottom of the player character's picture. The player loses the game the game if their character's HP falls to zero or below.",
       link: "https://xtrachase.github.io/RPG-Game/"
     },
-    ccGame: {
+    ccgame: {
       title: "Crystal Collector Game",
       tag:
         "A game where the player has to guess the number using hidden values from the crystals.",
@@ -66,28 +66,28 @@ $(document).ready(function() {
         "The app randomly picks a letter, and the user has to guess which letter the app chose.",
       link: "https://xtrachase.github.io/Psychic-Game/"
     },
-    webScraper: {
+    webscraper: {
       title: "Web Scraper",
       tag: "Tech News Website Scraper Using MongoDB",
       detail:
         "A web app that lets users view and leave comments on the latest technology news from TechCrunch.",
       link: "https://techcrunch-scraping.herokuapp.com/"
     },
-    virtualImagery: {
+    virtualimagery: {
       title: "Virtual Imagery LLC",
       tag: "Business Venture Developing Virtual Reality for Pain Management",
       detail:
         "Virtual Imagery is a personal venture of mine that has developed a virtual reality pain management program. The software is a distraction therapy with visual cues to highly engage patients in the virtual world. It features useful tools for caregivers to ease medical procedures and receive patient feedback.",
       link: "https://www.virtualimagery.net/"
     },
-    emojiGame: {
+    emojigame: {
       title: "Emoji Game",
       tag: "A memory game using React",
       detail:
         "You have 30 seconds to reply! Use as many emojis as you can without using the same emoji twice!",
       link: "https://xtrachase.github.io/clicky-game/"
     },
-    activityUp: {
+    activityup: {
       title: "ActivityUP",
       tag: "A site for up-voting group activities",
       detail:
