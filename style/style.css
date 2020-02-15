@@ -641,8 +641,9 @@ nav .active {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #333;
-  height: 90vh;
+  height: auto;
   width: 100vw;
+  margin-top: 5%;
 }
 
 .modal-wrap .close {

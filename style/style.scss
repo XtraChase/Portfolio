@@ -441,8 +441,9 @@ nav .active {
   text-align: left;
   box-sizing: border-box;
   color: #333;
-  height: 90vh;
+  height: auto;
   width: 100vw;
+  margin-top: 5%;
 }
 .modal-wrap .close {
   bottom: 25px;
