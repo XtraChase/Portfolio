@@ -507,6 +507,13 @@ nav .active {
   color: #e31b6d;
   background: #fff;
 }
+
+.modal-wrap .github-icon {
+  position: absolute;
+  bottom: 25px;
+  left: 180px;
+}
+
 .modal-wrap .carousel {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
 }
