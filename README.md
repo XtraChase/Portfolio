@@ -11,4 +11,4 @@
 - CSS
 - Javascript
 
-![preview](./images/preview.png)
+![preview](./screenshot.gif)
