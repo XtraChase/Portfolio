@@ -1,702 +1,413 @@
 <!DOCTYPE html>
 <html>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <head>
-    <title></title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
-    />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
-    <!-- HOSTED -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="//cdn.materialdesignicons.com/4.7.95/css/materialdesignicons.min.css"
-    />
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
 
-    <!-- LOCAL -->
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+  <!-- HOSTED -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800"
+    rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/4.7.95/css/materialdesignicons.min.css" />
 
-    <!-- HOSTED -->
-    <script src="cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-    <script src="ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-    <script src="cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+  <!-- LOCAL -->
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
 
-    <!-- LOCAL -->
-    <script src="scripts/pt.min.js"></script>
-    <script src="scripts/index.js"></script>
-    <script src="scripts/modal.js"></script>
-  </head>
-  <body>
-    <div class="overflow-wrap">
-      <!-- HOME -->
-      <div class="modal-wrap flex">
-        <div class="mask"></div>
-        <div class="modal" id="modal">
-          <div class="carousel-wrap">
-            <div class="window">
-              <div id="carousel">
-                <div class="slide"></div>
-                <div class="slide"></div>
-                <div class="slide"></div>
-              </div>
-              <i class="mdi mdi-chevron-left" id="prev"></i>
-              <i class="mdi mdi-chevron-right" id="next"></i>
+  <!-- HOSTED -->
+  <script src="cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+  <!-- LOCAL -->
+  <script src="scripts/pt.min.js"></script>
+  <script src="scripts/index.js"></script>
+  <script src="scripts/modal.js"></script>
+</head>
+
+<body>
+  <div class="overflow-wrap">
+    <!-- HOME -->
+    <div class="modal-wrap flex">
+      <div class="mask"></div>
+      <div class="modal" id="modal">
+        <div class="carousel-wrap">
+          <div class="window">
+            <div id="carousel">
+              <div class="slide"></div>
+              <div class="slide"></div>
+              <div class="slide"></div>
+            </div>
+            <i class="mdi mdi-chevron-left" id="prev"></i>
+            <i class="mdi mdi-chevron-right" id="next"></i>
+          </div>
+        </div>
+        <div class="info-box">
+          <div class="title"></div>
+          <div class="tag"></div>
+          <div class="detail"></div>
+          <a href="#" target="_blank">
+            <div class="button">
+              <i class="mdi mdi-open-in-new"></i>VIEW SITE
+            </div>
+          </a>
+          <a href="#" target="_blank">
+            <img class="github-icon" src="./img/GitHub-Mark-32px.png" alt="Github Link" />
+          </a>
+        </div>
+        <i class="close mdi mdi-close"></i>
+      </div>
+    </div>
+
+    <section id="home" class="flex height-fix">
+      <div id="pt" class="canvas"></div>
+      <div class="flex">
+        <div class="text">
+          Hello, I'm Chase Richards<span class="highlight"></span>.
+          <br />
+          <!-- I'm a developer. -->
+        </div>
+
+        <div class="button page-link" dest="about">
+          View my work <i class="mdi mdi-arrow-right"></i>
+        </div>
+
+        <nav class="flex">
+          <div class="link-wrap">
+            <div class="active page-link" dest="home">home</div>
+            <div class="page-link" dest="about">about</div>
+            <div class="page-link" dest="portfolio">portfolio</div>
+            <!-- <div class="page-link" dest="blog">blog</div> -->
+            <div class="page-link" dest="contact">contact</div>
+          </div>
+          <i class="mdi mdi-menu"></i>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container flex">
+        <div class="header waypoint" id="about-title" data-animation="slide-in-left">
+          ABOUT
+        </div>
+        <div class="header-bar waypoint" id="about-title-bar" data-animation="slide-in-left" data-delay=".5s"></div>
+
+
+
+        <div class="skills-wrapper flex row-gt-sm">
+          <div class="flex flex-50-gt-sm waypoint" data-animation="slide-in-left">
+            <img src="img/me.png" class="me" />
+            <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+            <!-- <div class="label bold">Who is Chase?</div> -->
+            <br /><br /><br />
+            <div id="about-text">
+              I'm an entrepreneur and developer with
+              interdisciplinary experience in programming, business
+              development, and project management across multiple sectors.
+              Recognized for demonstrating a natural aptitude for designing
+              impactful user experiences, as well as for creating innovative
+              solutions to address technical challenges. I have a verifiable
+              history of contributing directly to company growth and program
+              development throughout my career. Professional focal points
+              include patent creation, web development, application
+              programming, technical solutions, troubleshooting, media
+              production, and cross-team collaboration. Recently graduated
+              from Georgia Tech’s Certificate Program for Full Stack Coding,
+              my technical expertise lies across HTML5, CSS3, JavaScript,
+              jQuery, Bootstrap, React.js, Express.js, Node.js, MongoDB, SQL,
+              Command Line, Docker, and Git.
             </div>
           </div>
-          <div class="info-box">
-            <div class="title"></div>
-            <div class="tag"></div>
-            <div class="detail"></div>
-            <a href="#" target="_blank"
-              ><div class="button">
-                <i class="mdi mdi-open-in-new"></i>VIEW SITE
-              </div></a
-            >
-            <a href="#" target="_blank">
-              <img
-                class="github-icon"
-                src="./img/GitHub-Mark-32px.png"
-                alt="Github Link"
-              />
-            </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***********************************ADD CODE HERE************************************** -->
+    <!-- 3D ART PORTFOLIO -->
+    <!-- <div class="flex" id="portfolio">
+      <div class="header waypoint" data-animation="slide-in-left">
+        3D ART PROJECTS
+      </div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".3s"></div>
+
+      <div class="filter-wrap waypoint" id="portfolio-filter" data-animation="fade-in">
+        <div class="flex row">
+          <div class="filter" data-filter="all">ALL</div>
+
+        </div>
+        <div class="float-bar">
+          <div class="flex row">
+            <div class="filter" data-filter="all">ALL</div>
+
           </div>
-          <i class="close mdi mdi-close"></i>
+        </div>
+      </div>
+    </div> -->
+    <!-- ******************************************************************************** -->
+
+    <!-- WEB DEVELOPMENT PORTFOLIO -->
+    <section class="flex" id="portfolio">
+      <div class="header waypoint" data-animation="slide-in-right">
+        WEB DEVELOPMENT PROJECTS
+      </div>
+      <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+      <div class="filter-wrap waypoint" id="portfolio-filter" data-animation="fade-in">
+        <div class="flex row">
+          <div class="filter" data-filter="all">ALL</div>
+
+        </div>
+        <div class="float-bar">
+          <div class="flex row">
+            <div class="filter" data-filter="all">ALL</div>
+
+          </div>
         </div>
       </div>
 
-      <section id="home" class="flex height-fix">
-        <div id="pt" class="canvas"></div>
-        <div class="flex">
-          <div class="text">
-            Hello, I'm Chase Richards<span class="highlight"></span>.
-            <br />
-            I'm a full-stack web developer.
-          </div>
-
-          <div class="button page-link" dest="about">
-            View my work <i class="mdi mdi-arrow-right"></i>
-          </div>
-
-          <nav class="flex">
-            <div class="link-wrap">
-              <div class="active page-link" dest="home">home</div>
-              <div class="page-link" dest="about">about</div>
-              <div class="page-link" dest="portfolio">portfolio</div>
-              <!-- <div class="page-link" dest="blog">blog</div> -->
-              <div class="page-link" dest="contact">contact</div>
+      <div id="gallery" class="container flex row wrap waypoint">
+        <div class="mix js" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Goodviews</div>
+              <!-- <span class="highlight">Pure JavaScript</span> -->
             </div>
-            <i class="mdi mdi-menu"></i>
-          </nav>
-        </div>
-      </section>
-
-      <!-- ABOUT -->
-      <section id="about">
-        <div class="container flex">
-          <div
-            class="header waypoint"
-            id="about-title"
-            data-animation="slide-in-left"
-          >
-            ABOUT
-          </div>
-          <div
-            class="header-bar waypoint"
-            id="about-title-bar"
-            data-animation="slide-in-left"
-            data-delay=".5s"
-          ></div>
-
-          <!-- <div class="flex row label-wrap">
-            <div class="flex row-gt-sm">
-              <div class="flex bullet-wrap ">
-                <div class="hex-wrap waypoint" data-animation="flip-in-x">
-                  <div class="hexagon">
-                    <i class="mdi mdi-speedometer"></i>
-                  </div>
-                </div>
-                <div class="waypoint" data-animation="fade-in">
-                  <div class="label bold about-catagory-title">Fast</div>
-                  <div class="about-catagory-text">
-                    Fast load times and lag free interaction, my highest
-                    priority.
-                  </div>
-                </div>
-              </div>
-
-              <div class="flex bullet-wrap ">
-                <div
-                  class="hex-wrap waypoint"
-                  data-animation="flip-in-x"
-                  data-delay=".2s"
-                >
-                  <div class="hexagon">
-                    <i class="mdi mdi-cellphone-link"></i>
-                  </div>
-                </div>
-                <div class="waypoint" data-animation="fade-in" data-delay=".2s">
-                  <div class="label bold about-catagory-title">Responsive</div>
-                  <div class="about-catagory-text">
-                    My layouts will work on any device, big or small.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="flex row-gt-sm">
-              <div class="flex bullet-wrap ">
-                <div
-                  class="hex-wrap waypoint"
-                  data-animation="flip-in-x"
-                  data-delay=".4s"
-                >
-                  <div class="hexagon">
-                    <i class="mdi mdi-lightbulb-outline"></i>
-                  </div>
-                </div>
-                <div class="waypoint" data-animation="fade-in" data-delay=".4s">
-                  <div class="label bold about-catagory-title">Intuitive</div>
-                  <div class="about-catagory-text">
-                    Strong preference for easy to use, intuitive UX/UI.
-                  </div>
-                </div>
-              </div>
-
-              <div class="flex bullet-wrap ">
-                <div
-                  class="hex-wrap waypoint"
-                  data-animation="flip-in-x"
-                  data-delay=".6s"
-                >
-                  <div class="hexagon">
-                    <i class="mdi mdi-rocket"></i>
-                  </div>
-                </div>
-                <div class="waypoint" data-animation="fade-in" data-delay=".6s">
-                  <div class="label bold about-catagory-title">Dynamic</div>
-                  <div class="about-catagory-text">
-                    Websites don't have to be static, I love making pages come
-                    to life.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <div class="skills-wrapper flex row-gt-sm">
-            <div
-              class="flex flex-50-gt-sm waypoint"
-              data-animation="slide-in-left"
-            >
-              <img src="img/me.png" class="me" />
-              <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
-              <!-- <div class="label bold">Who is Chase?</div> -->
-              <br /><br /><br />
-              <div id="about-text">
-                I am an entrepreneur and full-stack web developer with
-                interdisciplinary experience in programming, business
-                development, and project management across multiple sectors.
-                Recognized for demonstrating a natural aptitude for designing
-                impactful user experiences, as well as for creating innovative
-                solutions to address technical challenges. I have a verifiable
-                history of contributing directly to company growth and program
-                development throughout my career. Professional focal points
-                include patent creation, web development, application
-                programming, technical solutions, troubleshooting, media
-                production, and cross-team collaboration. Recently graduated
-                from Georgia Tech’s Certificate Program for Full Stack Coding,
-                my technical expertise lies across HTML5, CSS3, JavaScript,
-                jQuery, Bootstrap, React.js, Express.js, Node.js, MongoDB, SQL,
-                Command Line, Docker, and Git.
-              </div>
-            </div>
-
-            <!-- <div
-              class="flex flex-50-gt-sm waypoint bars-wrap"
-              data-animation="slide-in-right"
-            >
-              <div class="bar flex">
-                <div class="bar fill" style="width:75%">
-                  <div class="tag bold flex">CSS</div>
-                </div>
-                <span>80%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:85%">
-                  <div class="tag bold flex">HTML</div>
-                </div>
-                <span>90%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:65%">
-                  <div class="tag bold flex">React</div>
-                </div>
-                <span>70%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:80%">
-                  <div class="tag bold flex">JavaScript</div>
-                </div>
-                <span>80%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:65%">
-                  <div class="tag bold flex">Angular</div>
-                </div>
-                <span>70%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:55%">
-                  <div class="tag bold flex">Node.js</div>
-                </div>
-                <span>50%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:65%">
-                  <div class="tag bold flex">Ruby/Rails</div>
-                </div>
-                <span>70%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:55%">
-                  <div class="tag bold flex">UI Design</div>
-                </div>
-                <span>50%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:60%">
-                  <div class="tag bold flex">Photoshop</div>
-                </div>
-                <span>60%</span>
-              </div>
-
-              <div class="bar flex">
-                <div class="bar fill" style="width:45%">
-                  <div class="tag bold flex">Illustrator</div>
-                </div>
-                <span>40%</span>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </section>
-
-      <!-- PORTFOLIO -->
-      <section class="flex" id="portfolio">
-        <div class="header waypoint" data-animation="slide-in-right">
-          PROJECTS
-        </div>
-        <div
-          class="header-bar waypoint"
-          data-animation="slide-in-right"
-          data-delay=".3s"
-        ></div>
-
-        <div
-          class="filter-wrap waypoint"
-          id="portfolio-filter"
-          data-animation="fade-in"
-        >
-          <div class="flex row">
-            <div class="filter" data-filter="all">ALL</div>
-            <!-- <div class="filter" data-filter=".node">NODE.JS</div>
-            <div class="filter" data-filter=".rails">RUBY/RAILS</div>
-            <div class="filter" data-filter=".js">JAVASCRIPT</div> -->
-          </div>
-          <div class="float-bar">
-            <div class="flex row">
-              <div class="filter" data-filter="all">ALL</div>
-              <!-- <div class="filter" data-filter=".node">NODE.JS</div>
-              <div class="filter" data-filter=".rails">RUBY/RAILS</div>
-              <div class="filter" data-filter=".js">JAVASCRIPT</div> -->
-            </div>
+            <div class="button" id="goodviews">LEARN MORE</div>
           </div>
         </div>
 
-        <div id="gallery" class="container flex row wrap waypoint">
-          <div class="mix js" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Goodviews</div>
-                <!-- <span class="highlight">Pure JavaScript</span> -->
-              </div>
-              <div class="button" id="goodviews">LEARN MORE</div>
+        <div class="mix rails" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Burger Bar</div>
+              <!-- <span class="highlight">Ruby on Rails+ JS</span> -->
             </div>
-          </div>
-
-          <div class="mix rails" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Burger Bar</div>
-                <!-- <span class="highlight">Ruby on Rails+ JS</span> -->
-              </div>
-              <div class="button" id="burger">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Friend Finder</div>
-                <!-- <span class="highlight">Node.js on Sails</span> -->
-              </div>
-              <div class="button" id="friendfinder">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix js" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Liri</div>
-                <span class="highlight">Node App</span>
-              </div>
-              <div class="button" id="liri">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix rails" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Patient Portal</div>
-                <!-- <span class="highlight">Ruby on Rails + Angular</span> -->
-              </div>
-              <div class="button" id="patientportal">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Giphy</div>
-                <!-- <span class="highlight">Node + React.js</span> -->
-              </div>
-              <div class="button" id="giphy">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Star Wars RPG</div>
-                <!-- <span class="highlight">Node + React.js</span> -->
-              </div>
-              <div class="button" id="starwars">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Crystal Collector Game</div>
-                <!-- <span class="highlight">Node + React.js</span> -->
-              </div>
-              <div class="button" id="ccgame">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Psychic Game</div>
-                <!-- <span class="highlight">Node + React.js</span> -->
-              </div>
-              <div class="button" id="psychic">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Tech News</div>
-                <span class="highlight">Web Scraper</span>
-              </div>
-              <div class="button" id="webscraper">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Virtual Imagery</div>
-                <span class="highlight">Virtual Reality Pain Management</span>
-              </div>
-              <div class="button" id="virtualimagery">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">Emoji Game</div>
-                <!-- <span class="highlight">Node + React.js</span> -->
-              </div>
-              <div class="button" id="emojigame">LEARN MORE</div>
-            </div>
-          </div>
-
-          <div class="mix node" data-my-order="1">
-            <div>
-              <div class="card"></div>
-              <div class="text">
-                <div class="bold">ActivityUP</div>
-                <span class="highlight">Open Source Event Creation</span>
-              </div>
-              <div class="button" id="activityup">LEARN MORE</div>
-            </div>
+            <div class="button" id="burger">LEARN MORE</div>
           </div>
         </div>
-      </section>
 
-      <!-- BLOG -->
-      <section id="blog">
-        <!-- <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">BLOG</div>
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-left"
-            data-delay=".5s"
-          ></div>
-
-          <div class="flex row wrap">
-            <div class="flex row-gt-sm">
-              <a
-                href="http://blog.eyecuelab.com/2016/04/29/breaking-your-coders-block/"
-                target="_blank"
-              >
-                <div class="blog-wrap waypoint" data-animation="fade-in">
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-1"></div>
-                    <div class="label bold">Breaking Your Coder's Block</div>
-                    <div class="date">APRIL 29, 2016</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      At one time or another, as a developer, we've all found
-                      ourselves hopelessly stuck on a coding issue...
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="http://blog.eyecuelab.com/2015/03/19/this-is-your-brain-on-caffeine/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".2s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-2"></div>
-                    <div class="label bold">
-                      !Awake: This is Your Brain on Caffeine
-                    </div>
-                    <div class="date">MARCH 19, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      If there's one thing I can truly claim to be an expert on,
-                      it's staying awake. For five years I struggled to stay
-                      employed...
-                    </div>
-                  </div>
-                </div>
-              </a>
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Friend Finder</div>
+              <!-- <span class="highlight">Node.js on Sails</span> -->
             </div>
-            <div class="flex row-gt-sm">
-              <a
-                href="http://blog.eyecuelab.com/2015/03/04/getting-a-handle-on-handlebars/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".4s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-3"></div>
-                    <div class="label bold">Getting a Handle on Handlebars</div>
-                    <div class="date">MARCH 04, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      Here at EyeCue Lab we render most of our data-laden HTML
-                      pages in Handlebar templates...
-                    </div>
-                  </div>
-                </div>
-              </a>
-              <a
-                href="http://blog.eyecuelab.com/2015/02/23/essential_extensions/"
-                target="_blank"
-              >
-                <div
-                  class="blog-wrap waypoint"
-                  data-animation="fade-in"
-                  data-delay=".6s"
-                >
-                  <div class="fade-wrap">
-                    <div class="thumb" id="thumb-4"></div>
-                    <div class="label bold">
-                      5 Extensions for Your Chrome Toolbelt
-                    </div>
-                    <div class="date">FEBRUARY 23, 2015</div>
-                    <div class="bar"></div>
-                    <div class="text">
-                      If you're not using Google Chrome as a front-end web
-                      developer, you're missing out. Not only is Chrome the...
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+            <div class="button" id="friendfinder">LEARN MORE</div>
           </div>
-        </div> -->
-      </section>
-
-      <!-- CONTACT -->
-      <section id="contact">
-        <svg
-          preserveAspectRatio="none"
-          viewBox="0 0 100 102"
-          height="75"
-          width="100%"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-          class="svgcolor-light"
-        >
-          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
-        </svg>
-        <div class="container flex">
-          <div class="header waypoint" data-animation="slide-in-left">
-            CONTACT
-          </div>
-          <div
-            class="header-bar waypoint"
-            data-animation="slide-in-right"
-            data-delay=".25s"
-          ></div>
-          <div
-            class="highlight waypoint"
-            data-animation="slide-in-right"
-            data-delay=".5s"
-          >
-            Have a question or want to work together?
-          </div>
-          <form
-            class="waypoint"
-            data-animation="pop-in"
-            data-delay=".5s"
-            id="contact-form"
-          >
-            <input placeholder="Name" type="text" name="name" required />
-            <input
-              placeholder="Enter email"
-              type="email"
-              name="email"
-              required
-            />
-            <textarea
-              placeholder="Your Message"
-              type="text"
-              name="message"
-            ></textarea>
-            <div id="success">
-              <div>
-                Your message was sent successfully. Thanks!<span
-                  id="close"
-                  class="mdi mdi-close"
-                ></span>
-              </div>
-            </div>
-
-            <input class="button" type="submit" id="submit" value="SUBMIT" />
-          </form>
         </div>
-      </section>
 
-      <footer>
-        <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
-
-        <div class="icon-wrap flex row">
-          <a href="https://www.linkedin.com/in/james-chase-richards/">
-            <div class="flex icon" id="icon-2">
-              <i class="mdi mdi-linkedin"></i>
+        <div class="mix js" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Liri</div>
+              <span class="highlight">Node App</span>
             </div>
-          </a>
-          <a href="https://github.com/XtraChase">
-            <div class="flex icon" id="icon-3">
-              <i class="mdi mdi-github-circle"></i>
-            </div>
-          </a>
-          <a href="https://www.instagram.com/xtra_chase/">
-            <div class="flex icon" id="icon-4">
-              <i class="mdi mdi-instagram"></i>
-            </div>
-          </a>
-          <a href="https://www.facebook.com/XtraChase">
-            <div class="flex icon" id="icon-5">
-              <i class="mdi mdi-facebook"></i>
-            </div>
-          </a>
-          <a
-            href="mailto:james.chase.richards@gmail.com?subject=your title&body=TThe message"
-          >
-            <div class="flex icon" id="icon-5">
-              <i class="mdi mdi-email"></i>
-            </div>
-          </a>
+            <div class="button" id="liri">LEARN MORE</div>
+          </div>
         </div>
-        <!-- <div class="info-box">
+
+        <div class="mix rails" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Patient Portal</div>
+              <!-- <span class="highlight">Ruby on Rails + Angular</span> -->
+            </div>
+            <div class="button" id="patientportal">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Giphy</div>
+              <!-- <span class="highlight">Node + React.js</span> -->
+            </div>
+            <div class="button" id="giphy">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Star Wars RPG</div>
+              <!-- <span class="highlight">Node + React.js</span> -->
+            </div>
+            <div class="button" id="starwars">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Crystal Collector Game</div>
+              <!-- <span class="highlight">Node + React.js</span> -->
+            </div>
+            <div class="button" id="ccgame">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Psychic Game</div>
+              <!-- <span class="highlight">Node + React.js</span> -->
+            </div>
+            <div class="button" id="psychic">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Tech News</div>
+              <span class="highlight">Web Scraper</span>
+            </div>
+            <div class="button" id="webscraper">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Virtual Imagery</div>
+              <span class="highlight">Virtual Reality Pain Management</span>
+            </div>
+            <div class="button" id="virtualimagery">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Emoji Game</div>
+              <!-- <span class="highlight">Node + React.js</span> -->
+            </div>
+            <div class="button" id="emojigame">LEARN MORE</div>
+          </div>
+        </div>
+
+        <div class="mix node" data-my-order="1">
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">ActivityUP</div>
+              <span class="highlight">Open Source Event Creation</span>
+            </div>
+            <div class="button" id="activityup">LEARN MORE</div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog">
+
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
+        xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+        <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+      </svg>
+      <div class="container flex">
+        <div class="header waypoint" data-animation="slide-in-left">
+          CONTACT
+        </div>
+        <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".25s"></div>
+        <div class="highlight waypoint" data-animation="slide-in-right" data-delay=".5s">
+          Have a question or want to work together?
+        </div>
+        <form class="waypoint" data-animation="pop-in" data-delay=".5s" id="contact-form">
+          <input placeholder="Name" type="text" name="name" required />
+          <input placeholder="Enter email" type="email" name="email" required />
+          <textarea placeholder="Your Message" type="text" name="message"></textarea>
+          <div id="success">
+            <div>
+              Your message was sent successfully. Thanks!<span id="close" class="mdi mdi-close"></span>
+            </div>
+          </div>
+
+          <input class="button" type="submit" id="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <i class="mdi mdi-chevron-double-up page-link" dest="home"></i>
+
+      <div class="icon-wrap flex row">
+        <a href="https://www.linkedin.com/in/james-chase-richards/">
+          <div class="flex icon" id="icon-2">
+            <i class="mdi mdi-linkedin"></i>
+          </div>
+        </a>
+        <a href="https://github.com/XtraChase">
+          <div class="flex icon" id="icon-3">
+            <i class="mdi mdi-github-circle"></i>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/xtra_chase/">
+          <div class="flex icon" id="icon-4">
+            <i class="mdi mdi-instagram"></i>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/XtraChase">
+          <div class="flex icon" id="icon-5">
+            <i class="mdi mdi-facebook"></i>
+          </div>
+        </a>
+        <a href="mailto:james.chase.richards@gmail.com?subject=your title&body=TThe message">
+          <div class="flex icon" id="icon-5">
+            <i class="mdi mdi-email"></i>
+          </div>
+        </a>
+      </div>
+      <!-- <div class="info-box">
           <div class="footnote">
             CHASE RICHARDS <span class="highlight">&copy;2019</span>
           </div>
         </div> -->
-      </footer>
-    </div>
+    </footer>
+  </div>
 
-    <div id="preload">
-      <img src="img/me.png" />
-      <img src="img/white-hex.jpg" />
-      <img src="img/Pain-Treatment-Portal.jpg" />
-      <img src="img/psychic.jpg" />
-      <img src="img/RPG.jpg" />
-      <img src="img/Trivia.jpg" />
-      <img src="img/Burger.PNG" />
-      <img src="img/CCGame.jpg" />
-      <img src="img/FriendFinder.PNG" />
-      <img src="img/liri.jpg" />
-      <img src="img/giphy_api.jpg" />
-      <img src="img/goodviews.png" />
-      <img src="img/WebScraper.png" />
-      <img src="img/emoji-game.png" />
-      <img src="img/ActivityUP-Logo.png" />
-    </div>
-  </body>
+  <div id="preload">
+    <img src="img/me.png" />
+    <img src="img/white-hex.jpg" />
+    <img src="img/Pain-Treatment-Portal.jpg" />
+    <img src="img/psychic.jpg" />
+    <img src="img/RPG.jpg" />
+    <img src="img/Trivia.jpg" />
+    <img src="img/Burger.PNG" />
+    <img src="img/CCGame.jpg" />
+    <img src="img/FriendFinder.PNG" />
+    <img src="img/liri.jpg" />
+    <img src="img/giphy_api.jpg" />
+    <img src="img/goodviews.png" />
+    <img src="img/WebScraper.png" />
+    <img src="img/emoji-game.png" />
+    <img src="img/ActivityUP-Logo.png" />
+  </div>
+</body>
+
 </html>
 
 <script src="scripts/canvas.js"></script>
